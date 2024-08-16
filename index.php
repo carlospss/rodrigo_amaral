@@ -1,4 +1,4 @@
-<!-- <?php session_start();?> -->
+
 <?php require_once('templates/doctype.php');?>
 	<link rel="stylesheet" type="text/css" href="styles/header-style.css">
 	<link rel="stylesheet" type="text/css" href="styles/index-style.css">
