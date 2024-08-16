@@ -1,0 +1,51 @@
+@media only screen{
+	footer{
+		background-color: #232C49;
+		color: white;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	footer span{
+		text-transform: uppercase;
+	}
+
+	footer, #redes-socias{
+		display: flex;
+	}
+
+	#redes-socias{
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 1024px){
+	footer{
+		height: 17vh;
+		gap: 20px;
+	}
+	footer span, footer i{
+		font-size: 1.3em;
+	}
+	#redes-socias{
+		gap: 20px;
+	}
+}
+
+@media only screen and (min-width: 1025px){
+	footer{
+		height: 20vh;
+		gap: 20px;
+	}
+	footer span, footer i{
+		font-size: 1.17em;
+	}
+	#redes-socias{
+		gap: 20px;
+	}
+	#redes-socias i{
+		transition: color .5s;
+	}
+	#redes-socias i:hover{
+		color: #01CBEB;
+	}
+}

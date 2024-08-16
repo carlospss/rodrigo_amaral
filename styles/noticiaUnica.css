@@ -1,0 +1,55 @@
+@media only screen{
+	#noticia p, #noticia h1, #img-background{
+		width: 95vw;
+	}
+	#noticia{
+		display: none;
+	}
+	#noticia{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 25px
+	}
+
+	#img-background{
+		display: flex;
+		justify-content: center;
+		background-image: url("http://localhost/rodrigo_amaral/media/img/fundo_banner.jpg");
+		background-size: cover;
+	}
+	#noticia h1{
+	    color: #232C49;
+	    font-size: 4em;
+	    align-self: center;
+	    width: fit-content;
+	}
+}
+@media only screen and (max-width: 1024px){
+
+	#media{
+		width: 95vw;
+		box-shadow: -3.5px 4px rgba(0,0,0,.7);
+		border-radius: 5px;
+	}
+	#noticia h1{
+		font-size: 2.5em;
+	}
+	#noticia p{
+		font-size: 2em;
+	}
+}
+@media only screen and (min-width: 1025px){
+	#img-background{
+		padding: 15px;	
+	}
+	#media{
+		width: 50vw;
+		box-shadow: -3.5px 4px rgba(0,0,0,.7);
+		border-radius: 5px;
+	}
+	#noticia p{
+		font-size: 1.5em;
+	}
+
+}

@@ -1,0 +1,12 @@
+@media only screen{
+	#criar-noticia{
+		text-transform: uppercase;
+		color: #232C49;
+		background-color: #01CBEB;
+		transition: background-color 0.25s;
+		font-weight: bold;
+		padding: 12px;
+		border-radius: 5px;
+		border: none;
+	}
+}

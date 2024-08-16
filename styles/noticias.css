@@ -1,0 +1,39 @@
+@media only screen{
+	main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100vw;
+	}
+	body{
+		background-color: white;
+
+	}
+	
+	#top{
+		height: 25vh;
+	}
+	h1{
+		color: #232C49;
+	}
+	
+}
+@media only screen and (max-width: 1024px){
+	main{
+		align-items: center;
+		gap: 50px;
+	}
+	h1{
+		font-size: 3.5em;
+	}
+	
+ 
+}
+@media only screen and (min-width: 1025px){
+	
+	main h1{
+	    font-size: 4em;
+	}
+	
+
+}

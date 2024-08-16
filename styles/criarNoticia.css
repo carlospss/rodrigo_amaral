@@ -1,0 +1,82 @@
+@media only screen{
+
+	#criarNoticia{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		background-color: rgba(0, 0, 0, 1.0);
+		width: 100vw;
+		height: 100vh;
+		
+	}
+	#criarNoticia #form{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	#criarNoticia #form .erro{
+		color: red;
+	}
+	#criarNoticia{
+		align-items: center;
+	}
+	#criarNoticia #form textarea, input, select{
+		border-radius: 5px;
+		border: none;
+	}
+	#contato #form div{
+		display: flex;
+		flex-direction: column;
+	}
+	#criarNoticia #form textarea { 
+		outline: none;
+		border: none; 
+	} 
+	#criarNoticia #form textarea { 
+		resize: vertical;
+		min-height: 140px; 
+	}
+
+	#criarNoticia #form input, select{
+		padding: 10px;
+
+	}
+
+	#criarNoticia #form button {
+		text-transform: uppercase;
+		color: white;
+		background-color: #232C49;
+		transition: background-color 0.25s;
+		font-weight: bold;
+		padding: 12px;
+		border-radius: 5px;
+		border: none;
+	}
+	#criarNoticia #form button:hover{
+		background-color: #01CBEB;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	
+	
+	#criarNoticia #form div input, textarea, select, #criarNoticia #form div span{
+		width: 90vw;
+	}
+	#criarNoticia #form input, textarea{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+
+	#criarNoticia #form div input, textarea, select{
+		width: 90vw;
+		border-radius: 5px;
+		border: none;
+	}
+	#criarNoticia #form button {
+		width: 20vw;
+	}
+}

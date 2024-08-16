@@ -1,0 +1,67 @@
+@media only screen{
+	body{
+		background-color: white;
+	}
+	#top{
+		height: 50vh;
+	}
+	#tumbs{
+		display: flex;
+		
+	}
+	#tumbs canvas{
+		transition: width .5s;
+	}
+	#tumbs a{
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
+		color: #232C49;
+		align-items: center;
+	}
+	#tumbs a h2{
+		width: 91vw;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 1024px){
+	main{
+		font-size: 1.75em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	main p, h1{
+		width: 91vw;
+	}
+	#tumbs{
+		flex-direction: column;
+		align-items: center;
+	}
+	#tumbs a{
+		width: 30vw;
+	}
+
+	#tumbs canvas{
+		width: 91vw;
+		border-radius: 5%;
+	}
+	#tumbs a span{
+		font-size: 1.5em;
+		text-decoration: none;
+	}
+}
+@media only screen and (min-width: 1025px){
+	#tumbs{
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	#tumbs canvas{
+		width: 27vw;
+	}
+}
